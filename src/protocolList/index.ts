@@ -17,7 +17,7 @@ export const protocolList = [
   'dragon',
   'kiriya',
   'suidex',
-  'wsip',
+  'wisp',
 ] as const
 
 export type ProtocolName = typeof protocolList[number]
@@ -41,7 +41,7 @@ export const protocolBook: Record<ProtocolName, ProtocolInfo> = {
     }
   },
   dragon: {
-    name: 'Araya',
+    name: 'Dragon',
     logoURI: 'https://pbs.twimg.com/profile_images/1579682510812114946/mrBTHMDd_400x400.jpg',
     extensions: {
       website: 'https://twitter.com/dragonsui_com',
