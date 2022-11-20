@@ -25,7 +25,7 @@ jobs:
           ./version-make up -rz package.json
       - name: git tag version
         run: |
-          VERSION=$(./version-make show --core  package.json)
+          VERSION=$(./version-make show --core package.json)
           git commit -am "[GitHub Actions] v${VERSION}"
           git push
           git tag v${VERSION}
