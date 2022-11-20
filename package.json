@@ -1,6 +1,6 @@
 {
   "name": "sui-sdk",
-  "version": "0.202211.0",
+  "version": "0.202211.1",
   "description": "",
   "main": "index.js",
   "scripts": {
