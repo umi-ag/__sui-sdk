@@ -14,7 +14,10 @@ type ProtocolInfo = {
 export const protocolList = [
   'araya',
   'acova',
+  'dragon',
   'kiriya',
+  'suidex',
+  'wsip',
 ] as const
 
 export type ProtocolName = typeof protocolList[number]
@@ -37,6 +40,13 @@ export const protocolBook: Record<ProtocolName, ProtocolInfo> = {
       discord: 'https://twitter.com/acovamarket',
     }
   },
+  dragon: {
+    name: 'Araya',
+    logoURI: 'https://pbs.twimg.com/profile_images/1579682510812114946/mrBTHMDd_400x400.jpg',
+    extensions: {
+      website: 'https://twitter.com/dragonsui_com',
+    }
+  },
   kiriya: {
     name: 'Kiriya',
     logoURI: 'https://pbs.twimg.com/profile_images/1575588291763589120/29_0d1ku_400x400.jpg',
@@ -45,4 +55,18 @@ export const protocolBook: Record<ProtocolName, ProtocolInfo> = {
       twitter: 'https://twitter.com/KriyaDEX',
     }
   },
+  suidex: {
+    name: 'Suidex',
+    logoURI: 'https://pbs.twimg.com/profile_images/1586631638087131136/pQ_TavMy_400x400.jpg',
+    extensions: {
+      website: 'https://suidex.io/',
+      twitter: 'https://twitter.com/Suidex_io',
+    }
+  },
+  wisp: {
+    name: 'Wisp Swap',
+    logoURI: 'https://pbs.twimg.com/profile_images/1591115744242114561/bNATBdQw_400x400.jpg',
+    extensions: {
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "sui-sdk",
+  "name": "@umi-ag/sui-sdk",
   "version": "0.202211.0",
   "description": "",
   "main": "index.js",
