@@ -8,6 +8,7 @@ export type ProtocolProfile = {
     description?: string
     discord?: string
     facebook?: string
+    github?: string
     instagram?: string
     medium?: string
     reddit?: string
@@ -37,6 +38,8 @@ export const protocolList = [
   'dragon',
   'kiriya',
   'suidex',
+  'suiswap',
+  'movex',
   'wisp',
 ] as const
 
@@ -102,6 +105,33 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
       'DEX',
     ],
     staging: 'pre-devnet',
+  },
+  suiswap: {
+    name: 'Suiswap',
+    logoURI: 'https://pbs.twimg.com/profile_images/1567166511852433410/P-fXc0nn_400x400.jpg',
+    extensions: {
+      discord: 'https://discord.com/invite/D3M5CpMEch',
+      github: 'https://github.com/vividnetwork',
+      twitter: 'https://twitter.com/suiswap_app',
+      website: 'https://suiswap.io/',
+    },
+    categories: [
+      'DEX',
+    ],
+    staging: 'devnet',
+  },
+  movex: {
+    name: "Movex",
+    logoURI: 'https://pbs.twimg.com/profile_images/1558573586159284224/m53awHZl_400x400.jpg',
+    extensions: {
+      discord: 'https://discord.com/invite/U5BPsCFCRu',
+      twitter: 'https://twitter.com/joinMovEX',
+      website: 'https://www.movex.exchange',
+    },
+    categories: [
+      'DEX',
+    ],
+    staging: 'devnet',
   },
   wisp: {
     name: 'Wisp Swap',
