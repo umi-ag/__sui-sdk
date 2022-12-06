@@ -198,7 +198,7 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
       discord: 'https://discord.com/invite/D3M5CpMEch',
       github: 'https://github.com/vividnetwork',
       twitter: 'https://twitter.com/suiswap_app',
-      website: 'https://suiswap.io/',
+      website: 'https://suiswap.app',
     },
     categories: [
       'DEX',
