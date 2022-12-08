@@ -35,6 +35,8 @@ export const dappCategoryList = [
 export type DappCategory = typeof dappCategoryList[number]
 
 export const protocolList = [
+  'umaswap',
+  'udoswap',
   'araya',
   'acova',
   'ballast',
@@ -215,5 +217,27 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
       'DEX',
     ],
     staging: 'pre-devnet',
-  }
+  },
+  udoswap: {
+    name: 'Udo',
+    logoURI: 'https://pbs.twimg.com/profile_images/1591115744242114561/bNATBdQw_400x400.jpg',
+    extensions: {
+      twitter: 'https://twitter.com/umi_protocol',
+    },
+    categories: [
+      'DEX',
+    ],
+    staging: 'devnet',
+  },
+  umaswap: {
+    name: 'Uma',
+    logoURI: "https://pbs.twimg.com/profile_images/1579044964092506115/2H_4MYjC_400x400.jpg",
+    extensions: {
+      twitter: 'https://twitter.com/umi_protocol',
+    },
+    categories: [
+      'DEX',
+    ],
+    staging: 'devnet',
+  },
 }
