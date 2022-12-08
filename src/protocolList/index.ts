@@ -98,7 +98,7 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
   },
   cetus: {
     name: 'Cetus',
-    logoURI: 'https://pbs.twimg.com/profile_images/1575588291763589120/29_0d1ku_400x400.jpg',
+    logoURI: 'https://pbs.twimg.com/profile_images/1554421146854264833/qvA0U4Js_400x400.jpg',
     extensions: {
       website: 'https://www.cetus.zone',
       twitter: 'https://twitter.com/CetusProtocol',
@@ -198,7 +198,7 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
   },
   suiswap: {
     name: 'Suiswap',
-    logoURI: 'https://pbs.twimg.com/profile_images/1567166511852433410/P-fXc0nn_400x400.jpg',
+    logoURI: 'https://pbs.twimg.com/profile_images/1597664871155261440/xvGBQkni_400x400.jpg',
     extensions: {
       discord: 'https://discord.com/invite/D3M5CpMEch',
       github: 'https://github.com/vividnetwork',
