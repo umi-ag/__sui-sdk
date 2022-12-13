@@ -53,6 +53,8 @@ export const protocolList = [
   'palladium',
   'turbos',
   'justex',
+  'udoswap',
+  'umaswap',
 ] as const
 
 export type ProtocolName = typeof protocolList[number]
@@ -286,5 +288,33 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
       'DEX',
     ],
     staging: 'pre-devnet',
+  },
+  udoswap: {
+    name: 'Udo',
+    logoURI: "https://pbs.twimg.com/profile_images/1575176902192631809/aQEU95w2_400x400.png",
+    extensions: {
+      twitter: 'https://twitter.com/JustExGlobal',
+      website: 'https://justex.com/',
+      medium: 'https://discord.gg/CtrhQgzYWY',
+      github: 'https://github.com/JustExLabs',
+    },
+    categories: [
+      'DEX',
+    ],
+    staging: 'devnet',
+  },
+  umaswap: {
+    name: 'Uma',
+    logoURI: "https://pbs.twimg.com/profile_images/1584813963702718464/BC5cLLi9_400x400.jpg",
+    extensions: {
+      twitter: 'https://twitter.com/JustExGlobal',
+      website: 'https://justex.com/',
+      medium: 'https://discord.gg/CtrhQgzYWY',
+      github: 'https://github.com/JustExLabs',
+    },
+    categories: [
+      'DEX',
+    ],
+    staging: 'devnet',
   },
 }
