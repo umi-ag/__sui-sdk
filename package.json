@@ -1,18 +1,18 @@
 {
-  "name": "@umi-ag/sui-sdk",
+  "name": "@umi-ag/sui-kit",
   "version": "0.202212.4",
   "description": "",
   "files": [
     "src",
     "dist"
   ],
-  "main": "./dist/sui-sdk.umd.js",
-  "module": "./dist/sui-sdk.es.js",
+  "main": "./dist/sui-kit.umd.js",
+  "module": "./dist/sui-kit.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/sui-sdk.es.js",
-      "require": "./dist/sui-sdk.umd.js"
+      "import": "./dist/sui-kit.es.js",
+      "require": "./dist/sui-kit.umd.js"
     }
   },
   "scripts": {
