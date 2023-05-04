@@ -35,6 +35,7 @@ export const dappCategoryList = [
 export type DappCategory = typeof dappCategoryList[number]
 
 export const protocolList = [
+  'anime',
   'araya',
   'acova',
   'ballast',
@@ -60,6 +61,18 @@ export const protocolList = [
 export type ProtocolName = typeof protocolList[number]
 
 export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
+  anime: {
+    name: 'AnimeSwap',
+    logoURI: 'https://pbs.twimg.com/profile_images/1555058896020340736/nr5Lx5tQ_400x400.jpg',
+    extensions: {
+      website: 'https://animeswap.org',
+      twitter: 'https://twitter.com/animeswap_org',
+    },
+    categories: [
+      'DEX',
+    ],
+    staging: 'mainnet',
+  },
   acova: {
     name: 'Acova',
     logoURI: 'https://pbs.twimg.com/profile_images/1502715353310269441/FLmFRNZl_400x400.jpg',
@@ -100,7 +113,7 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
   },
   cetus: {
     name: 'Cetus',
-    logoURI: 'https://pbs.twimg.com/profile_images/1554421146854264833/qvA0U4Js_400x400.jpg',
+    logoURI: 'https://pbs.twimg.com/profile_images/1610882080841543680/DT_n5wDa_400x400.png',
     extensions: {
       website: 'https://www.cetus.zone',
       twitter: 'https://twitter.com/CetusProtocol',
@@ -108,7 +121,7 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
     categories: [
       'DEX',
     ],
-    staging: 'pre-devnet',
+    staging: 'mainnet',
   },
   dragon: {
     name: 'Dragon',
