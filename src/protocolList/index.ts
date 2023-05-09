@@ -123,7 +123,7 @@ export const protocolBook: Record<ProtocolName, ProtocolProfile> = {
     staging: 'pre-devnet',
   },
   kiriya: {
-    name: 'Kiriya',
+    name: 'Kriya',
     logoURI: 'https://pbs.twimg.com/profile_images/1575588291763589120/29_0d1ku_400x400.jpg',
     extensions: {
       website: 'https://efficacy.finance/kriya-sui-dex/',
