@@ -1,7 +1,5 @@
 {
   "name": "@umi-ag/sui-kit",
-  "version": "0.202212.4",
-  "description": "",
   "files": [
     "src",
     "dist"
